@@ -5,6 +5,251 @@
 /*цвет h1- color: #FFFFFF*/
 /*цвет навигации background: #FFFFFF*/
 /*цвет hero+footer background: #2F303A*/
-/*цвет  background: #2F303A*/
 /*цвет  наша команда background: #F5F4FA*/
 /*цв.кнопок меню портф.background: #F5F4FA*/
+/*шрифты*/
+/*основной шрифт Roboto*/
+/* шрифт logo- Raleway*/
+/*===========WebStudio============*/
+root:{
+    --primary-text-color:#212121
+    --primary-description-color:#757575
+    --akcent-color:#2196F3
+    --section-color:#E5E5E5
+    --primary-navigation-color:#FFFFFF
+    --background-color-team:#F5F4FA
+    --button-background-color:#F5F4FA
+    --primary-text-color-h1:#FFFFFF
+    --adres-color:rgba(255, 255, 255, 0.6)
+}
+body{
+    font-family: 'Roboto'
+}
+.lst{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+/*Секция главной навигации*/
+
+.page-header{
+    background-color: #FFFFFF;
+}
+.logo-link{
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+color: #2196F3;
+}
+.dubl-logo-link{
+   font-family: 'Raleway', sans-serif;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+color: #000000; 
+}
+.site-nav-list .nav-link{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: #212121;
+}
+.nav-link:hover,
+.nav-link:focus{
+    color: #2196F3
+}
+/*Контакты*/
+.contacts-nav-list a{
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+.contacts-nav-list a:hover,
+.contacts-link-nav-list a:focus{
+    color: #2196F3
+}
+/*Секция заказа услуги*/
+.hero{
+    background-color: #2F303A;
+}
+.hero-title{
+font-family: 'Roboto', sans-serif;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.hero-button{
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+background-color: #2196F3;
+}
+/*Секция навыков*/
+.section{
+    background-color: #E5E5E5;
+}
+.section-list .title{
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+}
+.section-list .description{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+/*Секция услуг*/
+.section-title{
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+/*Секция команда*/
+.section-team{
+    background-color: #F5F4FA;
+}
+.team-list .title{
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+.team-list .description{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+/*Футер*/
+.footer{
+    background-color: #2F303A;
+}
+.logo-link-fut{
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+color: #2196F3;
+}
+.dubl-logo-link-fut{
+       font-family: 'Raleway', sans-serif;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+color: #FFFFFF; 
+}
+
+.adres-list .link-adres{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+.adres-list .adres-link{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+/*=============Portfolio=================*/
+.menu-list .menu-button{
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+.menu-button:hover,
+.menu-button:focus{
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.photo-list .title{
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.photo-list .description{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+
+
+
+
+
+
+
+
