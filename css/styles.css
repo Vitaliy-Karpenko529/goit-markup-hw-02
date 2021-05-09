@@ -12,6 +12,8 @@
 /* шрифт logo- Raleway*/
 /*===========WebStudio============*/
 :root{
+    --main-font:'Roboto',sans-serif;
+    --secondery-font:'Raleway', sans-serif;
     --primary-text-color:#212121;
     --primary-description-color:#757575;
     --akcent-color:#2196F3;
@@ -37,7 +39,7 @@
     text-decoration: none;
 }
 body{
-    font-family: 'Roboto',sans-serif;
+    font-family: var(--main-font)
 }
 
 /*Секция главной навигации*/
@@ -46,7 +48,7 @@ body{
     background-color: var(--primary-navigation-color);
 }
 .logo-link{
-font-family: 'Raleway', sans-serif;
+font-family: var(--secondery-font)
 font-weight: bold;
 font-size: 26px;
 line-height: 1.19;
@@ -55,7 +57,7 @@ letter-spacing: 0.03em;
 color: var(--logo-link-color);
 }
 .dubl-logo-link{
-   font-family: 'Raleway', sans-serif;
+   font-family: var(--secondery-font)
 font-weight: bold;
 font-size: 26px;
 line-height: 1.19;
@@ -64,7 +66,7 @@ letter-spacing: 0.03em;
 color: var(--dubl-logo-link); 
 }
 .site-nav-list .nav-link{
-font-family: 'Roboto', sans-serif;
+font-family: var(--main-font)
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -79,7 +81,7 @@ color: var(--primary-text-color);
 }
 /*Контакты*/
 .contacts-nav-list a{
-font-family: 'Roboto', sans-serif;
+font-family: var(--main-font);
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -95,7 +97,7 @@ color:var(--primary-description-color);
     background-color: var(--hero-background-color);
 }
 .hero-title{
-font-family: 'Roboto', sans-serif;
+font-family: var(--main-font);
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -106,7 +108,7 @@ text-transform: uppercase;
 color: var(--hero-title-color);
 }
 .hero-button{
-font-family: 'Roboto', sans-serif;
+font-family: var(--main-font);
 font-weight: bold;
 font-size: 16px;
 line-height: 1.87;
@@ -123,7 +125,7 @@ background-color: var(--hero-button-background-color);
     background-color: var(--section-color);
 }
 .section-list .title{
-font-family: 'Roboto', sans-serif;
+font-family: var(--main-font);
 font-weight: bold;
 font-size: 14px;
 line-height: 1.14;
@@ -133,7 +135,7 @@ text-transform: uppercase;
 color: var(--primary-text-color);
 }
 .section-list .description{
-font-family: 'Roboto', sans-serif;
+font-family: var(--main-font);
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -144,7 +146,7 @@ color: var(--primary-description-color);
 }
 /*Секция услуг*/
 .section-title{
-font-family: 'Roboto', sans-serif;
+font-family: var(--main-font);
 font-weight: bold;
 font-size: 36px;
 line-height: 1.16;
@@ -158,7 +160,7 @@ color: var(--primary-text-color);
     background-color: var(--background-color-team);
 }
 .team-list .title{
-font-family: 'Roboto', sans-serif;
+font-family: var(--main-font);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
@@ -167,7 +169,7 @@ letter-spacing: 0.03em;
 color: var(--primary-text-color);
 }
 .team-list .description{
-font-family: 'Roboto', sans-serif;
+font-family: var(--main-font);
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -181,7 +183,7 @@ color: var(--primary-description-color);
     background-color: #2F303A;
 }
 .logo-link-fut{
-font-family: 'Raleway', sans-serif;
+font-family: var(--secondery-font);
 font-weight: bold;
 font-size: 26px;
 line-height: 1.19;
@@ -190,7 +192,7 @@ letter-spacing: 0.03em;
 color: var(--logo-link-color);
 }
 .dubl-logo-link-fut{
-       font-family: 'Raleway', sans-serif;
+       font-family: var(--secondery-font);
 font-weight: bold;
 font-size: 26px;
 line-height: 1.19;
@@ -200,7 +202,7 @@ color:var(--dubl-logo-link-fut);
 }
 
 .adres-list .link-adres{
-font-family: 'Roboto', sans-serif;
+font-family: var(--main-font);
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -215,7 +217,7 @@ color: #FFFFFF;
     color:var(--akcent-color);
 }
 .adres-list .adres-link{
-font-family: 'Roboto', sans-serif;
+font-family: var(--main-font);
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -230,7 +232,7 @@ color: var(--adres-color);
 }
 /*=============Portfolio=================*/
 .menu-list .menu-button{
-font-family: 'Roboto', sans-serif;
+font-family: var(--main-font);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
@@ -246,7 +248,7 @@ background-color: var(--button-background-color);
     background-color: var(--akcent-color);
 }
 .photo-list .title{
-font-family: 'Roboto', sans-serif;
+font-family: var(--main-font);
 font-weight: bold;
 font-size: 18px;
 line-height: 2;
@@ -254,7 +256,7 @@ letter-spacing: 0.06em;
 color: var(--primary-text-color);
 }
 .photo-list .description{
-font-family: 'Roboto', sans-serif;
+font-family: var(--main-font);
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
