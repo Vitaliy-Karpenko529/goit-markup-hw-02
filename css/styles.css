@@ -11,19 +11,24 @@
 /*основной шрифт Roboto*/
 /* шрифт logo- Raleway*/
 /*===========WebStudio============*/
-root:{
-    --primary-text-color:#212121
-    --primary-description-color:#757575
-    --akcent-color:#2196F3
-    --section-color:#E5E5E5
-    --primary-navigation-color:#FFFFFF
-    --background-color-team:#F5F4FA
-    --button-background-color:#F5F4FA
-    --primary-text-color-h1:#FFFFFF
-    --adres-color:rgba(255, 255, 255, 0.6)
-}
-body{
-    font-family: 'Roboto'
+:root{
+    --primary-text-color:#212121;
+    --primary-description-color:#757575;
+    --akcent-color:#2196F3;
+    --section-color:#E5E5E5;
+    --primary-navigation-color:#FFFFFF;
+    --background-color-team:#F5F4FA;
+    --button-background-color:#F5F4FA;
+    --menu-button-akcent:#FFFFFF;
+    --hero-button-color:#FFFFFF;
+     --hero-button-background-color:#2196F3;
+    --hero-title-color:#FFFFFF;
+    --hero-background-color:#2F303A;
+    --adres-color:rgba(255, 255, 255, 0.6);
+    --logo-link-color:#2196F3;
+    --dubl-logo-link:#000000;
+    --dubl-logo-link-fut:#FFFFFF;
+
 }
 .lst{
     list-style: none;
@@ -31,10 +36,14 @@ body{
 .link{
     text-decoration: none;
 }
+body{
+    font-family: 'Roboto',sans-serif;
+}
+
 /*Секция главной навигации*/
 
 .page-header{
-    background-color: #FFFFFF;
+    background-color: var(--primary-navigation-color);
 }
 .logo-link{
 font-family: 'Raleway', sans-serif;
@@ -43,7 +52,7 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 
-color: #2196F3;
+color: var(--logo-link-color);
 }
 .dubl-logo-link{
    font-family: 'Raleway', sans-serif;
@@ -52,7 +61,7 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 
-color: #000000; 
+color: var(--dubl-logo-link); 
 }
 .site-nav-list .nav-link{
 font-family: 'Roboto', sans-serif;
@@ -62,11 +71,11 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 
-color: #212121;
+color: var(--primary-text-color);
 }
 .nav-link:hover,
 .nav-link:focus{
-    color: #2196F3
+    color: var(--akcent-color);
 }
 /*Контакты*/
 .contacts-nav-list a{
@@ -75,15 +84,15 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #757575;
+color:var(--primary-description-color);
 }
 .contacts-nav-list a:hover,
-.contacts-link-nav-list a:focus{
-    color: #2196F3
+.contacts-nav-list a:focus{
+    color: var(--akcent-color)
 }
 /*Секция заказа услуги*/
 .hero{
-    background-color: #2F303A;
+    background-color: var(--hero-background-color);
 }
 .hero-title{
 font-family: 'Roboto', sans-serif;
@@ -94,7 +103,7 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 
-color: #FFFFFF;
+color: var(--hero-title-color);
 }
 .hero-button{
 font-family: 'Roboto', sans-serif;
@@ -106,12 +115,12 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 
-color: #FFFFFF;
-background-color: #2196F3;
+color: var(--hero-button-color);
+background-color: var(--hero-button-background-color);
 }
 /*Секция навыков*/
 .section{
-    background-color: #E5E5E5;
+    background-color: var(--section-color);
 }
 .section-list .title{
 font-family: 'Roboto', sans-serif;
@@ -121,7 +130,7 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 
-color: #212121;
+color: var(--primary-text-color);
 }
 .section-list .description{
 font-family: 'Roboto', sans-serif;
@@ -131,7 +140,7 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 
-color: #757575;
+color: var(--primary-description-color);
 }
 /*Секция услуг*/
 .section-title{
@@ -142,11 +151,11 @@ line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 
-color: #212121;
+color: var(--primary-text-color);
 }
 /*Секция команда*/
 .section-team{
-    background-color: #F5F4FA;
+    background-color: var(--background-color-team);
 }
 .team-list .title{
 font-family: 'Roboto', sans-serif;
@@ -155,7 +164,7 @@ font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;
 
-color: #212121;
+color: var(--primary-text-color);
 }
 .team-list .description{
 font-family: 'Roboto', sans-serif;
@@ -165,7 +174,7 @@ font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;
 
-color: #757575;
+color: var(--primary-description-color);
 }
 /*Футер*/
 .footer{
@@ -178,7 +187,7 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 
-color: #2196F3;
+color: var(--logo-link-color);
 }
 .dubl-logo-link-fut{
        font-family: 'Raleway', sans-serif;
@@ -187,7 +196,7 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 
-color: #FFFFFF; 
+color:var(--dubl-logo-link-fut); 
 }
 
 .adres-list .link-adres{
@@ -201,6 +210,10 @@ letter-spacing: 0.03em;
 
 color: #FFFFFF;
 }
+.link-adres:hover,
+.link-adres:focus{
+    color:var(--akcent-color);
+}
 .adres-list .adres-link{
 font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -209,7 +222,11 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 
-color: rgba(255, 255, 255, 0.6);
+color: var(--adres-color);
+}
+.adres-link:hover,
+.adres-link:focus{
+    color:var(--akcent-color);
 }
 /*=============Portfolio=================*/
 .menu-list .menu-button{
@@ -220,12 +237,13 @@ line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 
-color: #212121;
+color: var(--primary-text-color);
+background-color: var(--button-background-color);
 }
 .menu-button:hover,
 .menu-button:focus{
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--menu-button-akcent);
+    background-color: var(--akcent-color);
 }
 .photo-list .title{
 font-family: 'Roboto', sans-serif;
@@ -233,7 +251,7 @@ font-weight: bold;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
-color: #212121;
+color: var(--primary-text-color);
 }
 .photo-list .description{
 font-family: 'Roboto', sans-serif;
@@ -242,7 +260,7 @@ font-weight: normal;
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--primary-description-color);
 }
 
 
