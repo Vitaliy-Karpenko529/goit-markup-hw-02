@@ -28,8 +28,8 @@
     --hero-background-color:#2F303A;
     --adres-color:rgba(255, 255, 255, 0.6);
     --logo-link-color:#2196F3;
-    --dubl-logo-link:#000000;
-    --dubl-logo-link-fut:#FFFFFF;
+    --logo-studio-link-color:#000000;
+    --logo-studio-link-fut-color:#FFFFFF;
     --link-adres-color:#FFFFFF;
 
 }
@@ -49,24 +49,20 @@ body{
 .page-header{
     background-color: var(--primary-navigation-color);
 }
+.logo-text{
+font-family: var(--secondery-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
 .logo-link{
-font-family: var(--secondery-font);
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-
-color: var(--logo-link-color);
+    color: var(--logo-link-color);
 }
-.dubl-logo-link{
-font-family: var(--secondery-font);
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-
-color: var(--dubl-logo-link); 
+.logo-studio-link{
+    color: var(--logo-studio-link-color); 
 }
+
 .site-nav-list .nav-link{
 font-weight: 500;
 font-size: 14px;
@@ -175,25 +171,19 @@ color: var(--primary-description-color);
 .footer{
     background-color: #2F303A;
 }
+.logo-text-futer{
+font-family: var(--secondery-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
 .logo-link-fut{
-font-family: var(--secondery-font);
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-
-color: var(--logo-link-color);
+    color: var(--logo-link-color);
 }
-.dubl-logo-link-fut{
-font-family: var(--secondery-font);
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-
-color:var(--dubl-logo-link-fut); 
+.logo-studio-link-fut{
+color:var(--logo-studio-link-fut-color)
 }
-
 .adres-list .link-adres{
 font-weight: 400;
 font-size: 14px;
