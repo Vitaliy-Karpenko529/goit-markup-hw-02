@@ -30,6 +30,7 @@
     --logo-link-color:#2196F3;
     --dubl-logo-link:#000000;
     --dubl-logo-link-fut:#FFFFFF;
+    --link-adres-color:#FFFFFF;
 
 }
 .lst{
@@ -50,7 +51,7 @@ body{
 }
 .logo-link{
 font-family: var(--secondery-font);
-font-weight: bold;
+font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
@@ -59,7 +60,7 @@ color: var(--logo-link-color);
 }
 .dubl-logo-link{
 font-family: var(--secondery-font);
-font-weight: bold;
+font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
@@ -67,7 +68,6 @@ letter-spacing: 0.03em;
 color: var(--dubl-logo-link); 
 }
 .site-nav-list .nav-link{
-font-family: var(--main-font);
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -75,18 +75,22 @@ letter-spacing: 0.02em;
 
 color: var(--primary-text-color);
 }
+.site-nav-list .nav-link.current{
+     color: var(--akcent-color);
+}
+
 .nav-link:hover,
 .nav-link:focus{
     color: var(--akcent-color);
 }
 /*Контакты*/
 .contacts-nav-list a{
-font-family: var(--main-font);
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color:var(--primary-description-color);
+text-decoration: none;
 }
 .contacts-nav-list a:hover,
 .contacts-nav-list a:focus{
@@ -97,7 +101,6 @@ color:var(--primary-description-color);
     background-color: var(--hero-background-color);
 }
 .hero-title{
-font-family: var(--main-font);
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -108,8 +111,8 @@ text-transform: uppercase;
 color: var(--hero-title-color);
 }
 .hero-button{
-font-family: var(--main-font);
-font-weight: bold;
+font-family: inherit;
+font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
 display: flex;
@@ -121,12 +124,8 @@ color: var(--hero-button-color);
 background-color: var(--hero-button-background-color);
 }
 /*Секция навыков*/
-.section{
-    background-color: var(--section-color);
-}
 .section-list .title{
-font-family: var(--main-font);
-font-weight: bold;
+font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
@@ -135,8 +134,7 @@ text-transform: uppercase;
 color: var(--primary-text-color);
 }
 .section-list .description{
-font-family: var(--main-font);
-font-weight: normal;
+font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -145,8 +143,7 @@ color: var(--primary-description-color);
 }
 /*Секция услуг*/
 .section-title{
-font-family: var(--main-font);
-font-weight: bold;
+font-weight: 400;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
@@ -159,7 +156,6 @@ color: var(--primary-text-color);
     background-color: var(--background-color-team);
 }
 .team-list .title{
-font-family: var(--main-font);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
@@ -168,8 +164,7 @@ letter-spacing: 0.03em;
 color: var(--primary-text-color);
 }
 .team-list .description{
-font-family: var(--main-font);
-font-weight: normal;
+font-weight: 400;
 font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;
@@ -182,7 +177,7 @@ color: var(--primary-description-color);
 }
 .logo-link-fut{
 font-family: var(--secondery-font);
-font-weight: bold;
+font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
@@ -191,7 +186,7 @@ color: var(--logo-link-color);
 }
 .dubl-logo-link-fut{
 font-family: var(--secondery-font);
-font-weight: bold;
+font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
@@ -200,26 +195,24 @@ color:var(--dubl-logo-link-fut);
 }
 
 .adres-list .link-adres{
-font-family: var(--main-font);
-font-weight: normal;
+font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
-
+font-style: normal;
 letter-spacing: 0.03em;
 
-color: #FFFFFF;
+color: var(--link-adres-color);
 }
 .link-adres:hover,
 .link-adres:focus{
     color:var(--akcent-color);
 }
 .adres-list .adres-link{
-font-family: var(--main-font);
-font-weight: normal;
+font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-
+font-style: normal;
 color: var(--adres-color);
 }
 .adres-link:hover,
@@ -228,7 +221,7 @@ color: var(--adres-color);
 }
 /*=============Portfolio=================*/
 .menu-list .menu-button{
-font-family: var(--main-font);
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
@@ -247,16 +240,14 @@ background-color: var(--button-background-color);
     cursor: pointer;
 }
 .photo-list .title{
-font-family: var(--main-font);
-font-weight: bold;
+font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: var(--primary-text-color);
 }
 .photo-list .description{
-font-family: var(--main-font);
-font-weight: normal;
+font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
