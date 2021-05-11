@@ -16,22 +16,13 @@
     --secondery-font:'Raleway', sans-serif;
     --primary-text-color:#212121;
     --primary-description-color:#757575;
-    --akcent-color:#2196F3;
+     --akcent-color:#2196F3;
     --section-color:#E5E5E5;
     --primary-navigation-color:#FFFFFF;
-    --background-color-team:#F5F4FA;
-    --button-background-color:#F5F4FA;
-    --menu-button-akcent:#FFFFFF;
-    --hero-button-color:#FFFFFF;
-     --hero-button-background-color:#2196F3;
-    --hero-title-color:#FFFFFF;
-    --hero-background-color:#2F303A;
-    --adres-color:rgba(255, 255, 255, 0.6);
-    --logo-link-color:#2196F3;
-    --logo-studio-link-color:#000000;
-    --logo-studio-link-fut-color:#FFFFFF;
-    --link-adres-color:#FFFFFF;
-
+    --background-color-section:#F5F4FA;
+     --hero-background-color:#2F303A;
+     --adres-color:rgba(255, 255, 255, 0.6);
+     --logo-studio-link-color:#000000;
 }
 .lst{
     list-style: none;
@@ -42,6 +33,19 @@
 body{
     font-family: var(--main-font);
     color:var(--primary-text-color)
+}
+.visually-hidden{
+      position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /*Секция главной навигации*/
@@ -57,7 +61,7 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 }
 .logo-link{
-    color: var(--logo-link-color);
+    color: var(--akcent-color);
 }
 .logo-studio-link{
     color: var(--logo-studio-link-color); 
@@ -101,11 +105,10 @@ color:var(--primary-description-color);
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 
-color: var(--hero-title-color);
+color: var(--primary-navigation-color);
 }
 .hero-button{
 font-family: inherit;
@@ -117,8 +120,8 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 
-color: var(--hero-button-color);
-background-color: var(--hero-button-background-color);
+color: var(--primary-navigation-color);
+background-color: var(--akcent-color);
 }
 /*Секция навыков*/
 .section-list .title{
@@ -140,13 +143,13 @@ color: var(--primary-description-color);
 }
 /*Секция услуг*/
 .section-title{
-font-weight: 400;
+font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
-text-align: center;
 letter-spacing: 0.03em;
 
 color: var(--primary-text-color);
+
 }
 /*Секция команда*/
 .section-team{
@@ -180,10 +183,10 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 }
 .logo-link-fut{
-    color: var(--logo-link-color);
+    color: var(--akcent-color);
 }
 .logo-studio-link-fut{
-color:var(--logo-studio-link-fut-color)
+color:var(--primary-navigation-color)
 }
 .adres-list .link-adres{
 font-weight: 400;
@@ -192,7 +195,7 @@ line-height: 1.71;
 font-style: normal;
 letter-spacing: 0.03em;
 
-color: var(--link-adres-color);
+color: var(--primary-navigation-color);
 }
 .link-adres:hover,
 .link-adres:focus{
@@ -220,11 +223,11 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: var(--primary-text-color);
-background-color: var(--button-background-color);
+background-color: var(--background-color-section);
 }
 .menu-button:hover,
 .menu-button:focus{
-    color: var(--menu-button-akcent);
+    color: var(--primary-navigation-color);
     background-color: var(--akcent-color);
 }
 .menu-button{
